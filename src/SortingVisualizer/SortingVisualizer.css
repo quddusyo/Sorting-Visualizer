@@ -21,6 +21,11 @@
   justify-content: space-evenly;
   background-color: rgb(245, 245, 245);
 }
+/* to get rid of default a tag styles */
+.btn-container > a ,a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 .btn-container > a {
   display: flex;
